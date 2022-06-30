@@ -1,3 +1,10 @@
 # WP_Snippets
 
-<p>Just a few useful snippets for WordPress</p>
+<p>A few useful snippets for WordPress</p>
+
+<ul>
+  <li>Accordion menu</li>
+  <li>WordPress cookies</li>
+  <li>WordPress Popup</li>
+  <li>WordPress Breadcrumbs</li>
+ </ul>
