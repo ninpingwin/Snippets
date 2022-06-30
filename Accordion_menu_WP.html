@@ -1,0 +1,30 @@
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<script type="text/javascript">
+
+
+$(document).ready( function () {
+ // On cache les sous-menus :
+ $(".categories ul.children").hide();
+ //On modifie la class du sous menu pour conserver le mouseover lors du survole de sous-cat
+ $(".categories ul.children li").addClass("cat-item_under").removeClass("cat-item");
+
+ //on applique l'action mouseover
+ $(".categories li.cat-item > a").mouseover( function () {
+ // Si le sous-menu était déjà ouvert, on le referme :
+ if ($(this).next("ul.children:visible").length != 0) {
+ $(this).next("ul.children").slideUp("normal");
+ }
+ // Si le sous-menu est caché, on ferme les autres et on l'affiche :
+ else {
+ $(".categories ul.children").slideUp("normal");
+ $(this).next("ul.children").slideDown("normal");
+ }
+ // On empêche le navigateur de suivre le lien :
+ return false;
+ });
+} ) ;
+
+
+</script>
