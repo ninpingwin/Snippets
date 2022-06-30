@@ -9,4 +9,5 @@
   <li>WordPress Breadcrumbs</li>
   <li>WordPress Loop for Menu</li>
   <li>RegEx for Phone Validation</li>
+  <li>Find out Magento locale</li>
  </ul>
