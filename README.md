@@ -3,7 +3,7 @@
 <p>A few useful snippets</p>
 
 <ul>
-  <li>Accordion menu</li>
+  <li>WordPress Accordion menu</li>
   <li>WordPress Cookies</li>
   <li>WordPress Popup</li>
   <li>WordPress Breadcrumbs</li>
