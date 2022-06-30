@@ -4,7 +4,8 @@
 
 <ul>
   <li>Accordion menu</li>
-  <li>WordPress cookies</li>
+  <li>WordPress Cookies</li>
   <li>WordPress Popup</li>
   <li>WordPress Breadcrumbs</li>
+  <li>WordPress Loop for Menu</li>
  </ul>
